@@ -1,0 +1,43 @@
+<html>
+
+<head> </head>
+
+<body>
+    <h1>College Admission form</h1>
+    <form>
+        <h3>Enter Your Full Name</h3>
+        <input type="text" placeholder="First name" name="First name" required pattern="^[A-za-z]*$">
+        <input type="text" placeholder="Middle name" name="Middle name" required pattern="^[A-za-z]*$">
+        <input type="text" placeholder="Last Name" name="Last Name" required pattern="^[A-za-z]*$">
+        <br>
+        <h3>Enter your Mothers name</h3>
+        <input type="text" placeholder="Mothers Name" name="Mothers Name" required pattern="^[A-za-z]*$">
+        <br>
+        <h3>Enter your Date of birth</h3>
+        <input type="date" name="date" required>
+        <br>
+        <h3>Select Your Gender</h3>
+        Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender"> Other<input type="radio"
+            name="MyGender">
+        <h3>Residential address</h3>
+        <textarea name="address" cols="20" rows="10" placeholder="Enter your address" required></textarea>
+        <h3>Permanent Address</h3>
+        <textarea name="address" cols="20" rows="10" placeholder="Enter your address" required></textarea>
+        <br>
+        <br>
+        <label>City</label>
+        <input type="text" placeholder="enter you city" name="city" required pattern="^[A-za-z]*$">
+        <label>Pin code</label>
+        <input type="number" placeholder="enter pincode" name="code" required>
+        <h3>email address:</h3>
+        <input type="text" placeholder="Enter your email" name="mail" required pattern=".+@gmail\.com">
+        <h3>Contact no:</h3>
+        <input type="number" placeholder="Enter your number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
